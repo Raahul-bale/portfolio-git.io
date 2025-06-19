@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(211, 211, 211, 0.662);
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+section{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0,0, 1);
+}
+
+img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+textarea{
+             width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+
+ input[type="email"],
+ input[type="datetime-local"],
+ input[type="contact"],
+input[type="url"]{
+         width: 100%;
+         padding: 10px;
+         box-sizing: border-box;
+         border-radius: 6px;
+         margin: 5px,0;
+         box-sizing: border-box;
+        }
+input[type="submit"]{
+         width:100%;
+        padding: 10px;
+        color: aliceblue;
+        font-weight: bold;
+        border-radius: 5px;
+        background-color: blue;
+        font-size: 18px;
+    }
+    input[type="submit"]:hover{
+        background-color: black;
+    }
+    form{
+        padding: 20px;
+    }
+    footer{
+        background-color: blue;
+        padding: 10px;
+        color: aliceblue;
+        text-align: center;
+    }
+    .form-group{
+        margin-bottom: 15px;
+    }
+    .main{
+        display: flex;
+        width: 50%;
+    }
+    .linkedin-container {
+    flex: 1;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.linkedin-container iframe {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .linkedin-container {
+         margin-left: 0;
+        margin-top: 2rem;
+    }
+}

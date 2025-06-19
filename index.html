@@ -3,10 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword"  content="raahul computer science student java full stack python">
+    <meta name="description" content="this is profile page of raahul he is programming enthusiaist">
+    <meta name="author"  content="raahul">
+    <meta http-equiv="refresh" content="10" url="http://localhost:8080/profile">
+    <meta name="robots" content="index,follow">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">   
 </head>
 <body>
-    
+    <header>
+        <h1>Raahul profile</h1>
+    </header>
+    <main>
+        <!-- personal information -->
+         <section>
+            <div class="main">
+        <div class="personal-info">
+            <h2>Personal Information</h2>
+            <img src="./assets/images/img2.png" alt="Profile Picture" width="250">
+            <div class="info-details">
+                <p><strong>Name: </strong>Raahul</p>
+                <p><strong>Branch: </strong>B.TECH CSE</p>
+                <p><strong>College: </strong>Malla Reddy University, Hyderabad</p>
+                <p><strong>Year: </strong>3rd Year</p>
+            </div>
+        </div>
+            <div class="linkedin-container">
+            <iframe 
+                src="https://www.linkedin.com/embed/feed/update/urn:li:share:YOUR_POST_ID" 
+                frameborder="0" 
+                height="100"
+                width="100%"
+                title="LinkedIn Profile">
+            </iframe>
+        </div>
+            </div>
+         </section>
+         <!-- accadamic performance -->
+         <section>
+            <h2>Acadamic performance</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Semester</th>
+                        <th>Subjects</th>
+                        <th>SGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1st</td>
+                        <td>Maths,Physics,c programing</td>
+                        <td>8.5</td>
+                    </tr>
+                     <tr>
+                        <td>2nd</td>
+                        <td>DSA, oops, Digital logic</td>
+                        <td>8.5</td>
+                    </tr>
+                    <tr>
+                        <td>3rd</td>
+                        <td>DBMS, JAVA, COA</td>
+                        <td>8.5</td>
+                    </tr>
+                </tbody>
+            </table>
+         </section>
+         <!-- technical skills -->
+         <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><Strong>Operating system : </Strong>windows, unix, mac</li>
+                <li><Strong>Lang : </Strong>c,c++,java,python,c#</li>
+                <li><Strong>Frontend : </Strong>html,css,bootstarp</li>
+                <li><Strong>Frontend framework: </Strong>angular, react js</li>
+                <li><Strong>Server framework: </Strong>Spring, Sprinfmvc,Hybernate</li>
+                <li><Strong>DBMS : </Strong>Oracle,Mysql,mongodb</li>
+            </ul>
+         </section>
+         <!-- hobies and intrest -->
+           <section>
+            <h2>Hobbies and intrest</h2>
+            <ol>
+                <li>codding challenges </li>
+                <li>ui/ux</li>
+                <li>football</li>
+                <li>crick</li>
+            </ol>
+         </section>
+         <!-- contact me -->
+          <section>
+            <h2>CONTACT ME:</h2>
+            <form action="#">
+            <div class="form-group">    
+            <label for="email"><strong>EMAIL :</strong></label>
+            <input type="email" id="email" placeholder="" required />
+            </div>
+            <div class="form-group">
+            <label for="date"><strong>when to call back:</strong></label>
+            <input type="datetime-local" id="date" placeholder=" " required />
+            </div>
+            <div class="form-group">
+            <label for="contact"><strong>contact number :</strong> </label>
+            <input type="contact" id="contact" placeholder="" required />
+            </div>
+            <div class="form-group">
+            <label for="Description"><strong>Description : </strong></label>
+            <textarea name="discription" id="discription" row="10" ></textarea>
+            </div>
+            <div class="form-group">
+            <label for="github"><strong>url : </strong></label>
+            <input type="url" id="github" placeholder="" required />
+            </div>
+            <div class="from-group">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+          </section>
+    </main>
+    <footer>
+        <p>&copy; ALL COPY RIGHTS RESERVERD,BY RAAHUL</p>
+    </footer>
 </body>
 </html>
